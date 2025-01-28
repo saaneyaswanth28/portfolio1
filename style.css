@@ -387,7 +387,7 @@ h1 .sub-title span{
     width: 85%;
 }
 .progress-line.js span{
-    width: 78%;
+    width: 55%;
 }
 .progress-line.c span{
     width: 50%;
@@ -398,7 +398,7 @@ h1 .sub-title span{
 .progress-line span::after{
     position: absolute;
     padding: 1px 8px;
-    background-color: #fff;
+    background-color: #000;
     color: #fff;
     font-size: 12px;
     border-radius: 3px;
@@ -409,19 +409,19 @@ h1 .sub-title span{
 
 }
 .progress-line.html span:after{
-    content: 90%;
+    content: "90%";
 }
 .progress-line.css span:after{
-    content: 85%;
+    content: "85%";
 }
 .progress-line.js span:after{
-    content: 78%;
+    content: "55%";
 }
 .progress-line.c span:after{
-    content: 50%;
+    content: "50%";
 }
 .progress-line.python span:after{
-    content: 80%;
+    content: "80%";
 } 
 .progress-line span::before{
      content: " "; 
@@ -431,8 +431,8 @@ h1 .sub-title span{
     border: 7px solid transparent;
     border-bottom-width:0px ;
     border-right-width: 0px;
-    /* border-top-color: #000; */
-    top: -20px;
+     border-top-color: #000; 
+    top: -10px;
     right: 0;
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
@@ -778,20 +778,6 @@ box-shadow: 0 0 5px cyan,
     padding: 10px;
     border-radius: 0.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @keyframes slideRight{
     0%{
