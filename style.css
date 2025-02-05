@@ -483,6 +483,32 @@ h1 .sub-title span{
 
     }
 }
+
+/* Media query for mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .radial-bars .radial-bar {
+      width: 100%; /* Change width to 100% for mobile devices */
+      height: 150px; /* Adjust height for mobile devices */
+    }
+  
+    .radial-bars .radial-bar svg {
+      width: 100px; /* Adjust SVG width for mobile devices */
+      height: 140px; /* Adjust SVG height for mobile devices */
+    }
+  }
+  
+  /* Media query for smaller mobile devices (max-width: 480px) */
+  @media (max-width: 480px) {
+    .radial-bars .radial-bar {
+      height: 120px; /* Adjust height for smaller mobile devices */
+    }
+  
+    .radial-bars .radial-bar svg {
+      width: 80px; /* Adjust SVG width for smaller mobile devices */
+      height: 120px; /* Adjust SVG height for smaller mobile devices */
+    }
+  }
+  
 .path{
     stroke-width: 10;
     stroke: #0ef;
