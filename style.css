@@ -206,7 +206,7 @@ body{
     animation-delay: 1s;
      font-family: cursive;
     
-    color: transparent;
+/*     color: transparent;
     background: linear-gradient(
          var(--color-1) 19%,
         transparent 19%, transparent 20%,
@@ -217,7 +217,7 @@ body{
         var(--color-4) 60%, var(--color-4) 79%,
         transparent 79%, transparent 80%, 
         var(--color-5) 80%
-      );
+      ); */
       -webkit-background-clip: text;
 }
 
